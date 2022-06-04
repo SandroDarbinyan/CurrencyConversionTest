@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CurrencyConversion" verbose="1">
+    <test name="Pages">
+        <classes>
+            <class name="com.currency.conversion.home.CurrencyConversionHomePageTest" >
+                <!--                 <methods>-->
+                <!--                     <include name="buyAndSellFieldsTest"/>-->
+                <!--                 </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
